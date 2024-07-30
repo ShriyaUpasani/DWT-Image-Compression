@@ -48,3 +48,15 @@ The image will progressively improve with details from level 0 to level 9.
 ## Examples
 - javac .\CompressImage.java; java CompressImage .\roses_image_512x512.rgb 8; // 75 percent compression
 - javac .\CompressImage.java; java CompressDWT .\roses_image_512x512.rgb -1 // Progressive reconstruction
+
+## Working
+
+#### N=9, Original Image
+
+![image](https://github.com/user-attachments/assets/fe6bd64a-223d-4359-a8a4-4d62326db753)
+
+#### N=5
+![image](https://github.com/user-attachments/assets/95344144-354a-43f3-aeb0-323ff82b983d)
+
+#### Progressive
+![gif_assignment3](https://github.com/user-attachments/assets/f7b657f8-8b9a-4978-bd13-fccf71935189)
